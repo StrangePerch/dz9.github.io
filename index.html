@@ -1,0 +1,191 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"></head>
+<body>
+<header class="
+    bg-blue-800
+    w-screen grid grid-cols-2 justify-start items-center
+    h-16
+">
+    <div class="justify-self-start ml-12 md:ml-20 gap-4 flex items-center">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-10" fill="none" viewBox="0 0 24 24" stroke="white">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+        <nav class="justify-self-start flex gap-4 justify-start">
+            <a class="" href="">Home</a>
+            <a class="text-white" href="">Homework</a>
+            <a class="" href="">Settings</a>
+        </nav>
+    </div>
+    <img class="h-10 justify-self-end mr-12 md:mr-20" src="av_64.png" alt="">
+</header>
+
+<div class="grid grid-cols-3 grid-rows-2 font-thin mt-4 text-2xl">
+    <div class="col-start-2 text-center">Homework</div>
+    <div class="col-start-1 row-start-2 ml-24">JavaScript</div>
+    <div class="row-span-2 justify-self-end text-right text-xs mr-6">
+        <div class="mr-4">current-</div>
+        <div>reviewed-🟢</div>
+        <div>under review-🔵</div>
+        <div>overdue-🔴</div>
+    </div>
+</div>
+<hr class="my-6">
+<div class="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center">
+    <div class="bg-gray-100 border black p-6 w-80 rounded-lg">
+        <div class="font-medium ">Loops</div>
+        <div class="my-2">10/05/2019</div>
+        <div class="grid grid-cols-2 w-64 bg-white rounded border black p-1 overflow-hidden">
+            <input type="text" placeholder="Choose file"/>
+            <button class="bg-gray-200 w-20 -my-2 -mr-1 justify-self-end">Browse</button>
+        </div>
+    </div>
+    
+    <div class="border black p-6 w-80 bg-blue-500 rounded-lg text-white">
+        <div class="font-medium ">Conditional statements</div>
+        <div class="my-2">8/05/2019</div>
+        <div class="grid grid-cols-2 w-64 h-8 rounded border black overflow-hidden divide-x ">
+            <button class="text-center">
+                <span class="flex justify-center">
+                    <span class="material-icons">file_download</span>
+                    <span>Your file</span>
+                </span>
+                </button>
+            <button class="">
+                <span class="flex justify-center">
+                    <span class="material-icons">delete</span>
+                    <span>Delete</span>
+                </span>
+            </button>
+        </div>
+    </div>
+    <div class="border black p-6 w-80 bg-blue-500 rounded-lg text-white">
+        <div class="font-medium ">Variables</div>
+        <div class="my-2">5/05/2019</div>
+        <div class="grid grid-cols-2 w-64 h-8 rounded border black overflow-hidden divide-x ">
+            <button class="text-center">
+                <span class="flex justify-center">
+                    <span class="material-icons">file_download</span>
+                    <span>Your file</span>
+                </span>
+            </button>
+            <button class="">
+                <span class="flex justify-center">
+                    <span class="material-icons">delete</span>
+                    <span>Delete</span>
+                </span>
+            </button>
+        </div>
+    </div>
+</div>
+
+<div class="font-thin ml-24 mt-4 text-2xl">HTML & Css</div>
+
+<hr class="my-6">
+
+<div class="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-8 justify-items-center">
+    <div class="border black p-6 w-80 rounded-lg bg-red-400 text-white">
+        <div class="font-medium ">Adaptive layout</div>
+        <div class="my-2">29/04/2019</div>
+        <div class="grid grid-cols-2 w-64 rounded border black p-1 overflow-hidden bg-white">
+            <input class="" type="text" placeholder="Choose file"/>
+            <button class="text-black bg-gray-200 w-20 -my-2 -mr-1 justify-self-end">Browse</button>
+        </div>
+    </div>
+
+    <div class="border black p-6 w-80 rounded-lg bg-red-400 text-white">
+        <div class="font-medium ">Grid layout</div>
+        <div class="my-2">27/04/2019</div>
+        <div class="grid grid-cols-2 w-64 rounded border black p-1 overflow-hidden bg-white">
+            <input class="" type="text" placeholder="Choose file"/>
+            <button class="text-black bg-gray-200 w-20 -my-2 -mr-1 justify-self-end">Browse</button>
+        </div>
+    </div>
+
+    <div class="border black p-6 w-80 bg-green-400 rounded-lg text-white">
+        <div class="-mt-2 ml-64 text-xs bg-green-500 rounded-lg w-6 text-center">11</div>
+        <div class="font-medium -mt-4">Flexbox</div>
+        <div class="my-2">24/04/2019</div>
+        <div class="grid grid-cols-2 w-64 h-8 rounded border black overflow-hidden divide-x ">
+            <button class="text-center">
+                <span class="flex justify-center">
+                    <span class="material-icons">file_download</span>
+                    <span>Your file</span>
+                </span>
+            </button>
+            <button class="">
+                <span class="flex justify-center">
+                    <span class="material-icons">replay</span>
+                    <span>Resend</span>
+                </span>
+            </button>
+        </div>
+    </div>
+
+    <div class="border black p-6 w-80 bg-green-400 rounded-lg text-white">
+        <div class="-mt-2 ml-64 text-xs bg-green-500 rounded-lg w-6 text-center">10</div>
+        <div class="font-medium -mt-4">Animations</div>
+        <div class="my-2">20/04/2019</div>
+        <div class="grid grid-cols-2 w-64 h-8 rounded border black overflow-hidden divide-x ">
+            <button class="text-center">
+                <span class="flex justify-center">
+                    <span class="material-icons">file_download</span>
+                    <span>Your file</span>
+                </span>
+            </button>
+            <button class="">
+                <span class="flex justify-center">
+                    <span class="material-icons">replay</span>
+                    <span>Resend</span>
+                </span>
+            </button>
+        </div>
+    </div>
+
+    <div class="border black p-6 w-80 bg-green-400 rounded-lg text-white">
+        <div class="-mt-2 ml-64 text-xs bg-green-500 rounded-lg w-6 text-center">10</div>
+        <div class="font-medium -mt-4">Forms</div>
+        <div class="my-2">18/04/2019</div>
+        <div class="grid grid-cols-2 w-64 h-8 rounded border black overflow-hidden divide-x ">
+            <button class="text-center">
+                <span class="flex justify-center">
+                    <span class="material-icons">file_download</span>
+                    <span>Your file</span>
+                </span>
+            </button>
+            <button class="">
+                <span class="flex justify-center">
+                    <span class="material-icons">replay</span>
+                    <span>Resend</span>
+                </span>
+            </button>
+        </div>
+    </div>
+
+    <div class="border black p-6 w-80 bg-green-400 rounded-lg text-white">
+        <div class="-mt-2 ml-64 text-xs bg-green-500 rounded-lg w-6 text-center">12</div>
+        <div class="font-medium -mt-4">Tables</div>
+        <div class="my-2">17/04/2019</div>
+        <div class="grid grid-cols-2 w-64 h-8 rounded border black overflow-hidden divide-x ">
+            <button class="text-center">
+                <span class="flex justify-center">
+                    <span class="material-icons">file_download</span>
+                    <span>Your file</span>
+                </span>
+            </button>
+            <button class="">
+                <span class="flex justify-center">
+                    <span class="material-icons">replay</span>
+                    <span>Resend</span>
+                </span>
+            </button>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
